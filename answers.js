@@ -34,7 +34,7 @@ function sendEmail(){
         Subject : "Name: " + name,
         Body : 
         
-         `<br> Name: ${name} <br> Mark: ${percent}%`
+         `<br> Name:${name} <br> Mark:${percent}%`
        
     }).then(
     message => alert("Marks Sent")
